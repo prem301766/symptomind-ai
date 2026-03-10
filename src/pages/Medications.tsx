@@ -30,8 +30,14 @@ export default function Medications({ user }: { user: any }) {
   }, []);
 
   const fetchMeds = async () => {
-    const res = await fetch(`/api/medications/${userId}`);
-    setMeds(await res.json());
+    try {
+      const res = await fetch(`/api/medications/${userId}`);
+      if (!res.ok) throw new Error('Failed to fetch meds');
+      setMeds(await res.json());
+    } catch (error) {
+      console.error('Failed to fetch meds:', error);
+      setMeds([]);
+    }
   };
 
   const handleAddMed = async (e: FormEvent) => {

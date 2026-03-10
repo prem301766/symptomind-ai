@@ -15,8 +15,12 @@ export default function Doctors() {
 
   useEffect(() => {
     fetch('/api/doctors')
-      .then(res => res.json())
-      .then(data => setDoctors(data));
+      .then(res => {
+        if (!res.ok) throw new Error('Failed to fetch');
+        return res.json();
+      })
+      .then(data => setDoctors(data))
+      .catch(err => console.error('Doctors fetch failed:', err));
   }, []);
 
   const filteredDoctors = doctors.filter(d => 

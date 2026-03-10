@@ -53,10 +53,11 @@ export default function Dashboard({ user }: { user: any }) {
           fetch(`/api/reports/${userId}`),
           fetch(`/api/medications/${userId}`)
         ]);
-        setAppointments(await apptsRes.json());
-        setSymptomChecks(await checksRes.json());
-        setReports(await reportsRes.json());
-        setMeds(await medsRes.json());
+        
+        if (apptsRes.ok) setAppointments(await apptsRes.json());
+        if (checksRes.ok) setSymptomChecks(await checksRes.json());
+        if (reportsRes.ok) setReports(await reportsRes.json());
+        if (medsRes.ok) setMeds(await medsRes.json());
       } catch (error) {
         console.error('Failed to fetch dashboard data:', error);
       }
