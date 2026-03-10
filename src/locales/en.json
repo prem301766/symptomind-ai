@@ -1,0 +1,39 @@
+{
+  "common": {
+    "appName": "SymptoMind AI",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "Error",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "back": "Back",
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "doctors": "Doctors",
+    "remedies": "Remedies",
+    "medications": "Medications",
+    "calculators": "Calculators",
+    "reportExplainer": "Report Explainer",
+    "emergency": "Emergency",
+    "tutorials": "Tutorials",
+    "feedback": "Feedback"
+  },
+  "home": {
+    "heroTitle": "Your Health, Intelligently Understood.",
+    "heroSubtitle": "Bridge the gap between symptoms and care. SymptoMind AI provides instant awareness, report simplification, and direct specialist access.",
+    "checkNow": "Check Now",
+    "analyzing": "Analyzing...",
+    "symptomAwareness": "Symptom Awareness",
+    "symptomPlaceholder": "Describe your symptoms in detail (e.g., 'I have a sharp pain in my lower back that radiates to my leg...')",
+    "listening": "Listening...",
+    "privateSecure": "Private & Secure Analysis"
+  },
+  "navbar": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "patient": "Patient",
+    "doctor": "Doctor"
+  }
+}

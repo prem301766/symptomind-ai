@@ -1,0 +1,9 @@
+{
+  "name": "SymptoMind AI",
+  "description": "A production-grade health platform for symptom analysis, medical report simplification, and doctor coordination.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
