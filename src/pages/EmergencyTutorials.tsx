@@ -58,7 +58,7 @@ const tutorials: Tutorial[] = [
     title: 'Heimlich Maneuver',
     category: 'Airway',
     icon: Wind,
-    videoUrl: 'https://www.youtube.com/embed/7CgtIgSyAiU',
+    videoUrl: 'https://www.youtube.com/embed/bNwXnJQqA-g',
     thumbnail: 'https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=600',
     steps: [
       'Stand behind the person and wrap your arms around their waist.',
@@ -74,7 +74,7 @@ const tutorials: Tutorial[] = [
     title: 'Severe Bleeding Control',
     category: 'Trauma',
     icon: Droplets,
-    videoUrl: 'https://www.youtube.com/embed/nxXv_879-tI',
+    videoUrl: 'https://www.youtube.com/embed/jeviYt1Eaow',
     thumbnail: 'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=600',
     steps: [
       'Apply direct pressure with a clean cloth or bandage.',
