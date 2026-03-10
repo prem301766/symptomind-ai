@@ -153,7 +153,7 @@ const tutorials: Tutorial[] = [
     title: 'Snake Bite First Aid',
     category: 'Environmental',
     icon: Bug,
-    videoUrl: 'https://www.youtube.com/embed/u-9v7cW66sM',
+    videoUrl: 'https://www.youtube.com/embed/kFbvJkbUukQ',
     thumbnail: 'https://images.unsplash.com/photo-1550147760-44c9966d6bc7?auto=format&fit=crop&q=80&w=600',
     steps: [
       'Keep the person calm and still.',
