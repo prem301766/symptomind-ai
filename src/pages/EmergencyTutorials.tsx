@@ -41,7 +41,7 @@ const tutorials: Tutorial[] = [
     title: 'Adult CPR (Hands-Only)',
     category: 'Cardiac',
     icon: Heart,
-    videoUrl: 'https://www.youtube.com/embed/O_49wM6roU4',
+    videoUrl: 'https://www.youtube.com/embed/Plse2FOkV4Q',
     thumbnail: 'https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&q=80&w=600',
     steps: [
       'Check the scene for safety.',
